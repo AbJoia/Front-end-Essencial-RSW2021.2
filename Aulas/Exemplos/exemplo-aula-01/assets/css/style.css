@@ -1,0 +1,12 @@
+body{
+    background-color: #0578fc;
+    color: #FFF;
+    font-size:150%;
+    text-align:center;
+}
+.p1{
+    color: #21fd04;   
+    text-align: left;
+    font-family: 'Roboto Mono';    
+    background-image: url("../img/natureza.jpg");    
+}

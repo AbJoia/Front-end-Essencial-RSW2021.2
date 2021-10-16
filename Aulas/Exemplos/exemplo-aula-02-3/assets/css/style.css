@@ -1,0 +1,13 @@
+table, th, td{
+    border: 1px solid #333;
+}
+
+table{
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.C-Prod{
+    background-color: #0bc0d8
+}

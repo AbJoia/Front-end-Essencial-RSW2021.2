@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+
+.container-header{
+    display: flex;    
+    background-color: #006dfc;
+    width: 100%;
+    height: 5rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:70%;
+    height: inherit;    
+}
+
+.left-side ul{
+    color: #FFF;    
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+.left-side ul li{
+    display: inline; 
+    margin-left: 2rem;   
+}
+
+.right-side{
+    width:30%;
+    height: inherit;
+    background-color: #01fc9c;
+}
+
+button{
+    height: 2rem;
+}

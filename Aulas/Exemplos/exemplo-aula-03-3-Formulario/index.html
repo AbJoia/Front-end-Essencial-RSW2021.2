@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+    <form action="" method="POST">
+        <label for="fnome">Nome</label>
+        <input type="text" id="fnome" name="fnome" placeholder="Digite seu nome..." required pattern="[A-Za-zé ]+$" title="Somente letras neste campo">
+        <label for="fsobrenome">Sobrenome</label>
+        <input type="text" id="fsobrenome" name="fsobrenome" placeholder="Digite se sobrenome..." required>
+        <label for="fdate">Data</label>
+        <input type="date" id="fdate" name="fdate" required>
+        <label for="femail">Email</label>
+        <input type="email" name="femail" value="default" required>
+        <label for="fcpf">CPF</label>
+        <input type="text" name="fcpf" required data-mask="000.000.000-00" data-mask-selectonfocus="true"
+            pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+            maxlength="14">
+        <label for="fdatetime">Date Time</label>
+        <input type="datetime-local" id="fdatetime">
+        
+        <label>            
+            <input type="radio" id="fradiocss" name="fradio" Value="CSS">
+            CSS
+        </label>
+        <label>
+            <input type="radio" id="fradiohtml" name="fradio" Value="HTML">
+            HTML
+        </label>
+
+        <label for="fsenha">Senha</label>
+        <input type="password" id="fsenha" name="fsenha" required>
+        <input type="submit" name="submit" value="Enviar">
+    </form>   
+</body>
+</html>

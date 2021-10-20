@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: #00ff15;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        h1::before{
+            content: "<";
+        }        
+        h1::after{
+            content: ">"
+        }
+        ::selection{
+            background-color: #ffee00;
+            color: #0077ff;
+        }
+
+        [class*="ti"]{
+            color: #0077ff;
+        }
+
+        h1{
+            display: block;
+        }
+
+        #position{
+            top: 2rem;
+            left: 4rem;
+        }
+
+        #fixed{            
+            background-color: rgb(0, 162, 255);
+            position: sticky;
+            top: 0;    
+        }
+
+        li{
+            display: inline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container a-10" id="fixed" style="height:5rem;">
+        <ul>
+            <li><a href="http://google.com.br">Link</a></li>
+            <li><a href="#footer">Link</a></li>
+            <li><a href="#titulo">Link</a></li>
+        </ul>
+    </div> 
+    <h1 id="titulo">Seletores</h1>    
+    <div class="container a-10" id="position">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ea ad quos laborum nihil, perferendis nam odit sed quidem sequi.</p>
+    </div>       
+    <h1 class="titulo-teste">Titulo 2</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+    <p>Vero eius quisquam temporibus facilis dolorum</p>
+    <a href="" target="_self" title="flowers mais alguma">LINK para algum lugar</a>
+    <a href="" target="_blank" title="alguma">LINK para outro lugar</a>
+    <button onclick="document.getElementById('fixed').style.display = 'block';">Download</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="footer">Footer</h1>
+
+</body>
+</html>

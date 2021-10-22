@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Função Anônima-->
+    <input type="text" id="inputTamanho">
+    <input type="text" id="outputTamanho">
+
+    <script>
+        var inputTamanho = document.getElementById("inputTamanho");
+        var outputTamanho = document.getElementById("outputTamanho");
+
+        inputTamanho.oninput = function(){
+            outputTamanho.value = inputTamanho.value.length;
+        }
+
+        console.log(inputTamanho);
+        console.log(outputTamanho);
+    </script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

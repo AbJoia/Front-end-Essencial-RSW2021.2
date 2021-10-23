@@ -6,7 +6,7 @@ console.log(variosTipos);
 
 const array = [1, 2, 3, 4, 5, 6, 7];
 
-console.log(array.length);
+//console.log(array.length);
 array.push("push");
 array.shift();
 array.pop();
